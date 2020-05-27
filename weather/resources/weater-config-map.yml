@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: weater-config
+  namespace: mike-weather-cli
+data:
+  UNITS: metric
